@@ -1,0 +1,47 @@
+body {
+	background-image:url(../images/bg-white.jpg);
+}
+#header-pic {
+	height:200px;
+}
+#main {
+	border-left:#999 solid 2px;
+	border-right:#999 solid 2px;
+}
+.main-head-text {
+	padding:30px;
+	font-family:"Lucida Sans Unicode";
+	font-size:300%;
+	color:#333;
+}
+.main-head {
+	background-image:url(../images/module_ablove.png);
+	background-repeat:no-repeat;
+	margin-left:50px;
+	height:69px;
+}
+
+.main-body {
+	margin-left:50px;
+	padding-right:50px;
+}
+.main-content {
+	margin:10px;
+}
+.main-module {
+	background-image:url(../images/module_main.png);
+	background-repeat:repeat-y;
+	padding-left:10px;
+	width:237px;
+}
+.module-below {
+	background-image:url(../images/module_below.png);
+	background-repeat:no-repeat;
+	padding-left:10px;
+	width:237px;
+	height:82px;
+}
+.main-footer {
+	text-align:center;
+}
+

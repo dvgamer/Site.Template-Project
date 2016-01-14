@@ -1,0 +1,75 @@
+body { background-image:url(../images/bg-white.jpg); }
+#admin-head {
+	text-align:left;
+	background:url(../images/head_bg.jpg) repeat-x left;
+	height:70px;
+}
+
+#admin-login {
+	background-color:#FFF;
+	border:#CCC solid 1px;
+	text-align:left;
+	width:450px;
+	padding:5px;
+	 margin-top:60px;
+}
+#admin-from {
+	background-color:#FFF;
+	border-left:#CCC dashed 1px;
+	padding:10px;
+	margin:10px;
+}
+#admin-text, #admin-icon {
+	padding:5px 5px 10px 10px;
+}
+#error {
+	border:#e9b2b2 solid 1px;
+	background-color:#fbf3f3;
+	position:fixed;
+	top:80px;
+	left:50%;
+	margin-left:-210px;
+	color:#a63d3d;
+	text-align:center;
+	font-weight:bold;
+	width:400px;
+	padding:10px;
+	margin-bottom:15px;
+}
+input {
+	font:"Tahoma";
+	font-size:11px;
+	color:#666;
+}
+#username, #password {
+	padding:3px 3px 3px 20px;
+	margin:5px;
+	border:#ababab solid 1px;
+	background-color:#fcfcfc;
+}
+
+#username { background:url(../images/user.png) no-repeat 2px; }
+#password { background:url(../images/pass.png) no-repeat 2px; }
+
+#admin-menu {
+	background-image:url(../images/nav.jpg);
+	margin:0px;
+	height:25px;
+	padding-left:10px;
+	text-align:left;
+	background-color:#FFF;
+	border-bottom:#999 solid 1px;
+}
+#admin-menu li {
+	display:inline-block;
+	padding:5px 10px 5px 10px;
+}
+#admin-menu li a {
+	color:#eee;
+	text-decoration:underline;
+}
+
+#admin-menu li a:hover {
+	color:#eee;
+	text-decoration:none;
+}
